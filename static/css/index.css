@@ -1,0 +1,62 @@
+/** General Styles For Index **/
+
+.temp{
+	border: 2px red solid;
+	background: transparent;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+
+	height:100%;
+
+	font-size: 100%;
+	font-family: helvetica, arial, "lucida grande", verdana, sans-serif; color:#222;
+}
+
+.bodyContainer{
+	margin: 0px;
+	padding: 0px;
+
+	background-image: url(../img/bg.png);
+	background-repeat: repeat-x;
+	background-size: 100%;
+
+	border: 1px blue solid;
+
+	min-width: 945px;
+}
+
+.projectNav{
+	margin: 0px;
+	padding: 0px;
+	
+	clear: none;
+	width: 100%;
+	text-align: center;
+
+	height: 130px;
+}
+
+.projectNav ol{
+	margin: 0px;
+	padding: 0px;
+
+	height: 100px;
+
+	overflow-x: auto hidden;
+}
+
+.projectNav ol li{
+	margin: 0px;
+	padding: 0px;
+
+	width: 30%;
+	height: 100px;
+
+	display: inline-block;
+
+	border: 1px blue solid;
+
+}
